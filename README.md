@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# 🌐 Ammar Yaser | ABGA | ID OCR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application that allows the user to scan their ID card and extract the data from it.
+See Live Demo [Here](https://ammaryaser.com/Practice/OCR).
 
-Currently, two official plugins are available:
+This project was bootstrapped with [Vite](https://vitejs.dev/) (React + TypeScript).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Libraries Used
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/) ⚛️
+- [React Router](https://reactrouter.com/) 🚦
+- [Redux Toolkit](https://redux-toolkit.js.org/) 🗃️
+- [Tailwind CSS](https://tailwindcss.com/) 🎨
+- [Tesseract.js](https://tesseract.projectnaptha.com/) 📝
+- [Lucide](https://lucide.dev/) 🎨
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🏁 Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Prerequisites
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Node.js](https://nodejs.org/en/download/) 📦
+- [npm](https://www.npmjs.com/get-npm) 🛠️
+- [Git](https://git-scm.com/downloads) 🗃️
+
+### Installing
+
+1. Clone the repository 🔗
+2. Install dependencies using `npm install` 💻
+
+## 📋 Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app in the development mode. 🏃\
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser. 🌍
+
+The page will reload if you make edits. ✏️\
+You will also see any lint errors in the console. 📝
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder. 🏗️\
+It correctly bundles React in production mode and optimizes the build for the best performance. 📈
+
+The build is minified and the filenames include the hashes. 🔒\
+Your app is ready to be deployed! 🚀
