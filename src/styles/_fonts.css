@@ -1,29 +1,55 @@
+/* Poppins */
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/fonts/Poppins-ExtraBold.ttf");
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBold.ttf");
   font-weight: 800;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/fonts/Poppins-Bold.ttf");
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/fonts/Poppins-SemiBold.ttf");
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.ttf");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/fonts/Poppins-Medium.ttf");
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/fonts/Poppins-Regular.ttf");
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+/* Tajwal */
+@font-face {
+  font-family: "Tajawal";
+  src: url("../assets/fonts/Tajawal/Tajawal-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../assets/fonts/Tajawal/Tajawal-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../assets/fonts/Tajawal/Tajawal-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../assets/fonts/Tajawal/Tajawal-Regular.ttf");
   font-weight: 400;
 }
