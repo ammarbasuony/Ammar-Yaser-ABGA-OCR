@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: "/Practice/OCR/",
+  basename: "/Practice/OCR",
 });
 
 const Router = () => {
