@@ -27,7 +27,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: "/Practice/OCR/",
+});
 
 const Router = () => {
   return <RouterProvider router={router} />;
